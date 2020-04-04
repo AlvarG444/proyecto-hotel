@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>ZEN Hotel y Spa</title>
+    <!-- FAVICON -->
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <!-- VINCULACIÓN CON CSS -->
+    <link rel="stylesheet" href="css/style.css" name="text/css">
+
 
 </head>
 <body>
@@ -77,7 +81,7 @@
             <article id="hab_1">
                 <img src="Images/habitacion_1.jpg" width="292" height="162" title="imagen habitacion 1" alt="imagen ilustrativa de la habitacion 1">
                 <h2>Habitacion 1</h2>
-                <p>
+                <p class="parrafo_prueba">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quo exercitationem itaque repellat doloribus iste perspiciatis fugiat neque non aspernatur nam perferendis minima voluptate, nostrum corrupti necessitatibus. Consequatur, ducimus officia!
                 </p>
                 <a href="#slider_hab01">Ver mas</a> 
@@ -161,11 +165,11 @@
         <!-- CONTACTO -->
         <section id="contacto">
             <form action="procesar-info.php" method="POST" name="contacto">
-                <label for="">Check-In</label>
+                <label for="entrada" >Check-In</label>
                 <input type="date" name="check-in" id="formu-check-in">
-                <label for="">Check-Out</label>
+                <label for="salida">Check-Out</label>
                 <input type="date" name="check-out" id="formu-check-out">
-                <label for="">¿Que desea?</label>
+                <label for="consulta">¿Que desea?</label>
                 <input type="text" name="consulta" id="formu-consulta">
                 <input type="text" name="nombre-apellido" placeholder="Nombre y Apellido" id="formu-nombre-apellido" autofocus="true">
                 <input type="email" name="mail" id="formu-email" placeholder="E-mail" required>
